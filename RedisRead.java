@@ -23,7 +23,7 @@ public class RedisRead {
 		try {
 
 			SparkSession spark = SparkSession.builder().appName("RedisStreamExample")
-					.config("spark.redis.host", "**.*.*.***").config("spark.redis.port", "6379").getOrCreate();		
+					.config("spark.redis.host", "**.*.*.***").config("spark.redis.port", "****").getOrCreate();		
 
 			StructType UserSchema5 = new StructType(new StructField[] {
 
